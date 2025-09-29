@@ -1,4 +1,4 @@
-import java.util.Random;
+!import java.util.Random;
 import java.util.Scanner;
 
 public class NumGuessGame {
@@ -25,7 +25,7 @@ public class NumGuessGame {
                 int UserGuessNum;
                 if (!scanner.hasNextInt()) 
                 {
-                    System.out.println("Please enter a valid number.");
+                    System.out.println("Please enter a valid number!");
                     scanner.next();
                     continue;
                 }
